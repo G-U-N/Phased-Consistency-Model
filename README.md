@@ -20,7 +20,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 }
 ```
 
-## Intro
+## Introduction
 
 Phased Consistency Model (PCM) is (probably) current most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
 
