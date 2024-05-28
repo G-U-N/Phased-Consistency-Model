@@ -1,22 +1,26 @@
-
-
 <div align="center">
-  <img src="_assets_/imgs/logo.png" alt="logo" style="zoom:30%;" />
+
+## ⚡️Phased Consistency Model⚡️
+
+[[Paper]](None) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Demo in 🤗Hugging Face]](None) [[Pre-trained Models]](None) [[Civitai]](None)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
+
+
+by *Fu-Yun Wang<sup>1</sup>, Zhaoyang Huang<sup>2</sup>, Alexander William Bergman<sup>3,6</sup>, Dazhong Shen<sup>4</sup>, 
+Peng Gao<sup>4</sup>, Michael Lingelbach<sup>3,6</sup>, Keqiang Sun<sup>1</sup>, Weikang Bian<sup>1</sup>
+Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaogang Wang<sup>1</sup>* 
+
+*<sup>1</sup>CUHK-MMLab   <sup>2</sup>Avolution AI   <sup>3</sup>Hedra  <sup>4</sup>Shanghai AI Lab   <sup>5</sup>SenseTime  <sup>6</sup>Stanford University*
 </div>
 
-# PCM: Phased Consistency Models 🔥
-
-
-
 ```bib
-@article{wang2024pcm,
-  title={PCM: Phased Consistency Models}
-  author={Fu-Yun Wang},
-  year={2024},
+@article{wang2024phased,
+  author    = {Fu-Yun Wang, Zhaoyang Huang, Alexander William Bergman, Dazhong Shen, Peng Gao, Michael Lingelbach3, Keqiang Sun1, Weikang Bian, Guanglu Song, Yu Liu, Hongsheng Li, Xiaogang Wang},
+  title     = {Phased Consistency Model},
+  year      = {2024},
 }
 ```
 
-## For beginners
+## Intro
 
 Phased Consistency Model (PCM) is (probably) current most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
 
@@ -96,7 +100,7 @@ PCM achieves advanced generation results compared with current open-available po
 
 ## Concact & Collaboration
 
-I have been enaged in the consistency models for months, and feels so excited about the promising prospect of it. If you are also interested in the related  research and looking for collaboration by any chance, please do not hesitate to contact me. 
+If you have any questions about the code, please do not hesitate to contact me!
 
 Email: fywang@link.cuhk.edu.hk
 
