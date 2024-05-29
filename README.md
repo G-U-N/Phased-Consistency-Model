@@ -22,7 +22,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 
 ## Introduction
 
-Phased Consistency Model (PCM) is (probably) current most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
+Phased Consistency Model (PCM) is (probably) current one of the most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
 
 Consistecny Model (CM), proposed by Yang Song et al, is a promising new famility of generative models that can generate high-fiedilty images with very few steps (generally 2 steps) under the unconditional and class-conditional settings.  Previous work, latent-consistency model (LCM), tried to replicate the power of consistency models for text-conditioned generation, but generally failed to achieve pleasant results, especially in low-step regime (1~4 steps). Instead,  we believe PCM is a much more successful extension to the original consistency models for high-resolution, text-conditioned image generation, better replicating the power of original consistency models for more advanced generation settings.
 
