@@ -2,7 +2,7 @@
 
 ## ⚡️Phased Consistency Model⚡️
 
-[[Paper]](None) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Demo in 🤗Hugging Face]](None) [[Pre-trained Models]](None) [[Civitai]](None)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
+[[Paper]](https://arxiv.org/pdf/2405.18407) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Demo in 🤗Hugging Face]](None) [[Pre-trained Models]](None) [[Civitai]](None)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
 
 
 by *Fu-Yun Wang<sup>1</sup>, Zhaoyang Huang<sup>2</sup>, Alexander William Bergman<sup>3,6</sup>, Dazhong Shen<sup>4</sup>, 
