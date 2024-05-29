@@ -74,9 +74,7 @@ Consistency Trajctory Model (CTM) points out that CM suffer from the sthochastic
 
 
 
-For a better comparison, we also implement a baseline, which we termed as simpleCTM. We adapt the high-level idea of CTM from the k-diffusion framework into the DDPM framework with stable diffusions, and compare its performance. when trained with the same resource as that of our models. Our method achieves significant superior performance. 
-
-We recommend the authors to read our technical paper for better understanding about the work.
+For a better comparison, we also implement a baseline, which we termed as simpleCTM. We adapt the high-level idea of CTM from the k-diffusion framework into the DDPM framework with stable diffusion, and compare its performance. When trained with the same resource, our method achieves significant superior performance. 
 
 
 
