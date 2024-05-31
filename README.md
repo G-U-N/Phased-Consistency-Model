@@ -14,11 +14,18 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 
 ```bib
 @article{wang2024phased,
-  author    = {Fu-Yun Wang, Zhaoyang Huang, Alexander William Bergman, Dazhong Shen, Peng Gao, Michael Lingelbach3, Keqiang Sun1, Weikang Bian, Guanglu Song, Yu Liu, Hongsheng Li, Xiaogang Wang},
-  title     = {Phased Consistency Model},
-  year      = {2024},
+  title={Phased Consistency Model},
+  author={Wang, Fu-Yun and Huang, Zhaoyang and Bergman, Alexander William and Shen, Dazhong and Gao, Peng and Lingelbach, Michael and Sun, Keqiang and Bian, Weikang and Song, Guanglu and Liu, Yu and others},
+  journal={arXiv preprint arXiv:2405.18407},
+  year={2024}
 }
 ```
+
+### News
+
+- [2024.05.31]: Release Training Script of PCM-LoRA. 
+- [2024.05.30]: Technical report is available on arXiv.
+
 
 ## Introduction
 
