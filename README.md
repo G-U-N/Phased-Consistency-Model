@@ -12,6 +12,10 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 *<sup>1</sup>CUHK-MMLab   <sup>2</sup>Avolution AI   <sup>3</sup>Hedra  <sup>4</sup>Shanghai AI Lab   <sup>5</sup>SenseTime  <sup>6</sup>Stanford University*
 </div>
 
+<div align="center">
+  <img src="_assets_/teaser/teaser.png" alt="teaser" style="zoom:80%;" />
+</div>
+
 ```bib
 @article{wang2024phased,
   title={Phased Consistency Model},
@@ -29,9 +33,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
   >  Happy Children's Day! Never too old to celebrate the joys of childhood!
 - [2024.05.30]: [Technical report](https://arxiv.org/pdf/2405.18407) is available on arXiv.
 
-<div align="center">
-  <img src="_assets_/teaser/teaser.png" alt="teaser" style="zoom:80%;" />
-</div>
+
 ## Introduction
 
 Phased Consistency Model (PCM) is (probably) current one of the most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
