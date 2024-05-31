@@ -22,7 +22,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 ```
 
 ### News
-
+- [2024.06.01]: Release PCM-LoRA weights of [Stable Diffusion v1.5](https://huggingface.co/wangfuyun/PCM_SD15_LoRAs/tree/main) and [Stable Diffusion XL](https://huggingface.co/wangfuyun/PCM_SDXL_LoRAs/tree/main) on huggingface.
 - [2024.06.01]: Release Training Script of PCM-LoRA with Stable Diffusion v1.5. See [tran_pcm_lora_sd15.sh](code/text_to_image_sd15/train_pcm_lora_sd15.sh).
   >  We train the weights with 8 A 800. But my tentative experimental results suggest that using just one GPU can still achieve good results.
   > 
