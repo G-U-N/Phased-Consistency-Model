@@ -24,7 +24,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 ### News
 
 - [2024.05.31]: Release Training Script of PCM-LoRA with Stable Diffusion v1.5. 
-- [2024.05.30]: Technical report is available on arXiv.
+- [2024.05.30]: [Technical report](https://arxiv.org/pdf/2405.18407) is available on arXiv.
 
 
 ## Introduction
