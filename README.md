@@ -23,7 +23,10 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 
 ### News
 
-- [2024.06.01]: Release Training Script of PCM-LoRA with Stable Diffusion v1.5. See [tran_pcm_lora_sd15.sh](code/text_to_image_sd15/train_pcm_lora_sd15.sh). Happy Children's Day! Never too old to celebrate the joys of childhood!
+- [2024.06.01]: Release Training Script of PCM-LoRA with Stable Diffusion v1.5. See [tran_pcm_lora_sd15.sh](code/text_to_image_sd15/train_pcm_lora_sd15.sh).
+  >  We train the weights with 8 A 800. But my tentative experimental results suggest that using just one GPU can still achieve good results.
+  > 
+  >  Happy Children's Day! Never too old to celebrate the joys of childhood!
 - [2024.05.30]: [Technical report](https://arxiv.org/pdf/2405.18407) is available on arXiv.
 
 
