@@ -2,7 +2,7 @@
 
 ## ⚡️Phased Consistency Model⚡️
 
-[[Paper]](https://arxiv.org/pdf/2405.18407) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Pre-trained Models in 🤗Hugging Face]](https://huggingface.co/wangfuyun/PCM_SDXL_LoRAs/tree/main) [[Demo]](None) [[Civitai]](https://civitai.com/models/487106/pcm-loras-of-stable-diffusion-xl-for-fast-image-generation)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
+[[Paper]](https://arxiv.org/pdf/2405.18407) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Pre-trained Models in 🤗Hugging Face]](https://huggingface.co/wangfuyun/PCM_Weights) [[Demo]](None) [[Civitai]](https://civitai.com/models/487106/pcm-loras-of-stable-diffusion-xl-for-fast-image-generation)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
 
 
 by *Fu-Yun Wang<sup>1</sup>, Zhaoyang Huang<sup>2</sup>, Alexander William Bergman<sup>3,6</sup>, Dazhong Shen<sup>4</sup>, 
