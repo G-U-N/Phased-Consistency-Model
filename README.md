@@ -38,12 +38,12 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 
 Phased Consistency Model (PCM) is (probably) current one of the most powerful sampling acceleration strategy for fast text-conditioned image generation in large diffusion models. 
 
-Consistecny Model (CM), proposed by Yang Song et al, is a promising new famility of generative models that can generate high-fiedilty images with very few steps (generally 2 steps) under the unconditional and class-conditional settings.  Previous work, latent-consistency model (LCM), tried to replicate the power of consistency models for text-conditioned generation, but generally failed to achieve pleasant results, especially in low-step regime (1~4 steps). Instead,  we believe PCM is a much more successful extension to the original consistency models for high-resolution, text-conditioned image generation, better replicating the power of original consistency models for more advanced generation settings.
+Consistency Model (CM), proposed by Yang Song et al, is a promising new famility of generative models that can generate high-fidelity images with very few steps (generally 2 steps) under the unconditional and class-conditional settings.  Previous work, latent-consistency model (LCM), tried to replicate the power of consistency models for text-conditioned generation, but generally failed to achieve pleasant results, especially in low-step regime (1~4 steps). Instead,  we believe PCM is a much more successful extension to the original consistency models for high-resolution, text-conditioned image generation, better replicating the power of original consistency models for more advanced generation settings.
 
 Generally, we show there are mainly three limitations of (L)CMs:
 
 - LCM lacks flexibility for CFG choosing and is insensitive to negative prompts.
-- LCM fails to produce consistent results under different inference steps. Its results are blurry when step is too large (Stochastic sampling erorr) or small (inability).
+- LCM fails to produce consistent results under different inference steps. Its results are blurry when step is too large (Stochastic sampling error) or small (inability).
 - LCM produces bad and blurry results at low-step regime.
 
 These limitaions can be explicitly viewed from the following figure.
@@ -58,7 +58,7 @@ These limitaions can be explicitly viewed from the following figure.
 
 ### PF-ODE
 
-**Diffusion model**, from a continious time perspective, actually defines a forward conditional probability path, with a general representation of $\alpha_t \mathbf x_0 + \sigma_t \boldsymbol \epsilon \sim \mathcal N(\alpha_t\mathbf x_0, \sigma_{t}^2\mathbf I)$ for intermediate distribution $\mathbb P_{t}(\mathbf x | \mathbf x_0)$ conditioned on $\mathbf x_0$, which is quivalent to the stochasitic differential equation $\mathrm d\mathbf x_{t} = f_{t} \mathbf x_{t} \mathrm d t + g_{t} \mathrm d \boldsymbol w_{t}$ with $w_{t}$ denoting the standard Winer process.
+**Diffusion model**, from a continuous time perspective, actually defines a forward conditional probability path, with a general representation of $\alpha_t \mathbf x_0 + \sigma_t \boldsymbol \epsilon \sim \mathcal N(\alpha_t\mathbf x_0, \sigma_{t}^2\mathbf I)$ for intermediate distribution $\mathbb P_{t}(\mathbf x | \mathbf x_0)$ conditioned on $\mathbf x_0$, which is equivalent to the stochastic differential equation $\mathrm d\mathbf x_{t} = f_{t} \mathbf x_{t} \mathrm d t + g_{t} \mathrm d \boldsymbol w_{t}$ with $w_{t}$ denoting the standard Winer process.
 
 
 For the forward SDE, a remarkable property is that there exists a reverse time ODE trajectory, which is termed as PF ODE by song et al, which does not introduce additional stochasticity and still satisfy the pre-defined marginal distribution, that is 
@@ -75,9 +75,9 @@ Generally say, there are just infinite probable paths for reversing the SDE. How
 
 ### Learning Paradigm Comparison
 
-Consistency Trajctory Model (CTM) points out that CM suffer from the sthochasticity error accumulation when applied for multistep sampling for better sample quality and propose a more general framework, allowing for abitrary pair moving along the ODE trajectory. Yet, it requires an additional target timesteps embedding, which is not aligned with design space of traditional diffusion models.  Additionally, CTM is basically harder to train. Say we discritizing the ODE trajectory into $N$ points, the learning objective of diffusion models and consistency models are all $\mathcal O( N)$. Yet the number of learning objectives of CTM is $\mathcal O(N^2)$. Our proposed PCM, also solving the sthochasticity error accumulation, but is much easier for training. 
+Consistency Trajectory Model (CTM) points out that CM suffer from the stochasticity error accumulation when applied for multistep sampling for better sample quality and propose a more general framework, allowing for arbitrary pair moving along the ODE trajectory. Yet, it requires an additional target timesteps embedding, which is not aligned with design space of traditional diffusion models.  Additionally, CTM is basically harder to train. Say we discretizing the ODE trajectory into $N$ points, the learning objective of diffusion models and consistency models are all $\mathcal O( N)$. Yet the number of learning objectives of CTM is $\mathcal O(N^2)$. Our proposed PCM, also solving the stochasticity error accumulation, but is much easier for training. 
 
-**The core idea of our method is phasing the whole ODE trajectory into multiple sub-trajectories.**  The following figure illustrates the learning pradigm difference among diffusion models (DMs), consistency models (CMs), consistency trajctory models (CTMs), and our proposed phased consistency models (PCMs).
+**The core idea of our method is phasing the whole ODE trajectory into multiple sub-trajectories.**  The following figure illustrates the learning paradigm difference among diffusion models (DMs), consistency models (CMs), consistency trajectory models (CTMs), and our proposed phased consistency models (PCMs).
 
 
 
