@@ -64,7 +64,7 @@ accelerate launch --main_process_port 29500  train_pcm_lora_sd15.py \
     --multiphase=4 \
     --gradient_checkpointing \
     --not_apply_cfg_solver \
-    --proportion_empty_prompts=0.15 
+    --proportion_empty_prompts=0.1 
 
 # multiphase: The number of sub-trajectories that we hope to split the PF-ODE into.
 # w_min and w_max: We set a larger value of CFG in our official weights. But we find it would be better to set it a bit smaller.
@@ -106,4 +106,4 @@ accelerate launch --main_process_port 29500  train_pcm_lora_sd15_adv.py \
 # multiphase: The number of sub-trajectories that we hope to split the PF-ODE into.
 # w_min and w_max: We set a larger value of CFG in our official weights. But we find it would be better to set it a bit smaller.
 # set adv weight adn adv lr for proper training configure
-# you will see the results change a bit slower than not using the adv loss but not too slow. 1k iterations is enough for obvious improvement.
+# you will see the results change a bit slower than not using the adv loss but not too slow. Ttraining for 1k iterations is enough for obvious improvement.
