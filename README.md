@@ -27,6 +27,12 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 
 ### News
 - [2024.06.19]: Release the training script of PCM-LoRA with Stable Diffusion 3. See [text_to_image_sd3](https://github.com/G-U-N/Phased-Consistency-Model/blob/master/code/text_to_image_sd3/run.sh). Release the weights of PCM-LORA with Stable Diffusion 3.  See [PCM_Weights](https://huggingface.co/wangfuyun/PCM_Weights).
+
+| PCM-SD3-2step-Deterministic | PCM-SD3-4step-Deterministic    | PCM-SD3-Stochastic (treat it as a clearer LCM) |
+|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|
+| ![Image 1](_assets_/imgs/sd3_2step.png) | ![Image 2](_assets_/imgs/sd3_4step_deterministic.png) | ![Image 3](_assets_/imgs/sd3_4step_stochastic.png) |
+
+
 - [2024.06.04]: [Hugging Face Demo](https://huggingface.co/spaces/radames/Phased-Consistency-Model-PCM) is available. Thanks [@radames](https://github.com/radames) for the commit!
 - [2024.06.01]: Release PCM-LoRA weights of [Stable Diffusion v1.5](https://huggingface.co/wangfuyun/PCM_SD15_LoRAs/tree/main) and [Stable Diffusion XL](https://huggingface.co/wangfuyun/PCM_SDXL_LoRAs/tree/main) on huggingface.
 - [2024.06.01]: Release Training Script of PCM-LoRA with Stable Diffusion v1.5. See [tran_pcm_lora_sd15.sh](code/text_to_image_sd15/train_pcm_lora_sd15.sh).
@@ -116,7 +122,6 @@ PCM achieves advanced generation results compared with current open-available po
 If you have any questions about the code, please do not hesitate to contact me!
 
 Email: fywang@link.cuhk.edu.hk
-
 
 
 
