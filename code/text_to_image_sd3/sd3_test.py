@@ -162,7 +162,7 @@ pipe = StableDiffusion3Pipeline.from_pretrained(
 pcm_lora_weight = load_file("pcm_deterministic_4step_shift1.safetensors")
 alpha = 1.0
 pcm_lora_weight = {
-    key: value / 2 * np.sqrt(alpha) for key, value in pcm_lora_weight.items()
+    key: value * np.sqrt(alpha) for key, value in pcm_lora_weight.items()
 }
 pipe.load_lora_weights(pcm_lora_weight)
 pipe = pipe.to("cuda")
