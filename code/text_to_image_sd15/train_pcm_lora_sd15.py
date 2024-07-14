@@ -132,6 +132,8 @@ def log_validation(
             beta_end=0.012,
             beta_schedule="scaled_linear",
             timestep_spacing="trailing",
+            clip_sample = False, # important. DDIM will apply True as default which cause inference degradation.
+            set_alpha_to_one = False,
         ),  # DDIM should just work well. See our discussion on parameterization in the paper.
         revision=args.revision,
         torch_dtype=weight_dtype,
