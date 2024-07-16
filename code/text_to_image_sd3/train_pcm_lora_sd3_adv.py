@@ -67,6 +67,8 @@ from diffusers.utils import (
 from diffusers.utils.hub_utils import load_or_create_model_card, populate_model_card
 from diffusers.utils.torch_utils import is_compiled_module
 import torch.nn.functional as F
+from pcm_fm_deterministic_scheduler import PCMFMDeterministicScheduler
+
 
 
 if is_wandb_available():
@@ -1585,6 +1587,8 @@ def main(args):
                             revision=args.revision,
                             variant=args.variant,
                             torch_dtype=weight_dtype,
+                            scheduler=PCMFMDeterministicScheduler(1000, 3.0, 100),
+
                         )
                         # pipeline.enable_xformers_memory_efficient_attention()
                         validation_prompts = [
