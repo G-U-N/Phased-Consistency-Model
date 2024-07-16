@@ -54,11 +54,10 @@ from pcm_fm_stochastic_scheduler import PCMFMStochasticScheduler
 import diffusers
 from diffusers import (
     AutoencoderKL,
-    # FlowMatchEulerDiscreteScheduler,
+    FlowMatchEulerDiscreteScheduler,
     SD3Transformer2DModel,
     StableDiffusion3Pipeline,
 )
-from scheduling_flow_mathcing_cm import FlowMatchEulerDiscreteScheduler
 from diffusers.optimization import get_scheduler
 from diffusers.training_utils import cast_training_params
 from diffusers.utils import (
