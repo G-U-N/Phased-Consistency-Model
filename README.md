@@ -43,7 +43,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
   >  Happy Children's Day! Never too old to celebrate the joys of childhood!
 - [2024.05.30]: [Technical report](https://arxiv.org/pdf/2405.18407) is available on arXiv.
 
-| One-Step Generation Comparison HyperSD | One-Step Generation Comparison by PCM|
+| One-Step Generation Comparison by HyperSD | One-Step Generation Comparison by PCM|
 |:--------------:|:-----------:|
 | ![hypersd](_assets_/imgs/hypersd.png) | ![ours](_assets_/imgs/ours.png) |
 | hypersd | ours |
