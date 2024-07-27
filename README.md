@@ -43,6 +43,12 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
   >  Happy Children's Day! Never too old to celebrate the joys of childhood!
 - [2024.05.30]: [Technical report](https://arxiv.org/pdf/2405.18407) is available on arXiv.
 
+| One-Step Generation Comparison SDXL | One-Step Generation Comparison by SDXL|
+|:--------------:|:-----------:|
+| ![hypersd](_assets_/imgs/hypersd.png) | ![ours](_assets_/imgs/ours.png) |
+| hypersd | ours |
+
+Our model has **clearly better generation diversity** than the cocurrent work HyperSD.
 
 ## Introduction
 
