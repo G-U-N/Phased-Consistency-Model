@@ -26,7 +26,10 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 ```
 
 ### News
-- [2024.08]: TODO: Training code and new results on CIFAR and ImageNet.
+- [2024.08]: TODO: Training code and new results on CIFAR and ImageNet (Cleaning).
+  - Our 4-step model on CIFAR (uncondtional) achieves `FID 2.03`.
+  - Our 8-step model on CIFAR (unconditional) achieves `FID 1.94` with `Inception Score 10.05`.
+  - Our 4-step model on ImageNet64 (conditional) achieves `FID 3.0` with only `0.1%  training budget` of [official CM (4-step with LIPIPS loss: FID 4.3)](https://github.com/openai/consistency_models).
 - [2024.07.27]: Release Training Scripts of PCM-LoRA with Stable Diffusion XL.
 - [2024.07.14]: FIX inference bug caused by the default parameters of DDIM. 
 - [2024.06.19]: Release the training script of PCM-LoRA with Stable Diffusion 3. See [text_to_image_sd3](https://github.com/G-U-N/Phased-Consistency-Model/blob/master/code/text_to_image_sd3/run.sh). Release the weights of PCM-LORA with Stable Diffusion 3.  See [PCM_Weights](https://huggingface.co/wangfuyun/PCM_Weights).
