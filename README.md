@@ -26,7 +26,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
 ```
 
 ### News
-- [2024.08]: TODO: Training code and new results on CIFAR and ImageNet (Cleaning).
+- TODO: Training code and new results on CIFAR and ImageNet (Cleaning).
   - Our 4-step model on CIFAR (uncondtional) achieves `FID 2.03`.
   - Our 8-step model on CIFAR (unconditional) achieves `FID 1.94` with `Inception Score 10.05`.
   - Our 4-step model on ImageNet64 (conditional) achieves `FID 3.0` with only `0.1%  training budget` of [official CM (4-step with LIPIPS loss: FID 4.3)](https://github.com/openai/consistency_models).
