@@ -58,7 +58,7 @@ Our model has **clearly better generation diversity** than the cocurrent work Hy
 ## Introduction
 
 
-Consistency Model (CM), proposed by Yang Song et al, is a promising new famility of generative models that can generate high-fidelity images with very few steps (generally 2 steps) under the unconditional and class-conditional settings.  Previous work, latent-consistency model (LCM), tried to replicate the power of consistency models for text-conditioned generation, but generally failed to achieve pleasant results, especially in low-step regime (1~4 steps). Instead,  we believe PCM is a much more successful extension to the original consistency models for high-resolution, text-conditioned image generation, better replicating the power of original consistency models for more advanced generation settings.
+Consistency Model (CM), is a promising new famility of generative models that can generate high-fidelity images with very few steps (generally 2 steps) under the unconditional and class-conditional settings.  Previous work, latent-consistency model (LCM), tried to replicate the power of consistency models for text-conditioned generation, but generally failed to achieve pleasant results, especially in low-step regime (1~4 steps). Instead,  we believe PCM is a much more successful extension to the original consistency models for high-resolution, text-conditioned image generation, better replicating the power of original consistency models for more advanced generation settings.
 
 Generally, we show there are mainly three limitations of (L)CMs:
 
