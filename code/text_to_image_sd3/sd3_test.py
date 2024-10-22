@@ -100,7 +100,7 @@ with torch.autocast("cuda"):
     images = pipe(
         prompt=prompt,
         negative_prompt="",
-        num_inference_steps=4,
+        num_inference_steps=2,
         guidance_scale=1.2,
         num_images_per_prompt=9,
     ).images
