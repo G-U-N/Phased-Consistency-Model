@@ -16,14 +16,7 @@ Guanglu Song<sup>5</sup>, Yu Liu<sup>4</sup>, Hongsheng Li<sup>1</sup>, Xiaog
   <img src="_assets_/teaser/teaser.png" alt="teaser" style="zoom:80%;" />
 </div>
 
-```bib
-@article{wang2024phased,
-  title={Phased Consistency Model},
-  author={Wang, Fu-Yun and Huang, Zhaoyang and Bergman, Alexander William and Shen, Dazhong and Gao, Peng and Lingelbach, Michael and Sun, Keqiang and Bian, Weikang and Song, Guanglu and Liu, Yu and others},
-  journal={arXiv preprint arXiv:2405.18407},
-  year={2024}
-}
-```
+
 
 ### News
 - [2024.07.27]: Release Training Scripts of PCM-LoRA with Stable Diffusion XL.
@@ -132,4 +125,37 @@ If you have any questions about the code, please do not hesitate to contact me!
 Email: fywang@link.cuhk.edu.hk
 
 
+## Reference
+```bibtex
+@article{wang2024phased,
+  title={Phased Consistency Model},
+  author={Wang, Fu-Yun and Huang, Zhaoyang and Bergman, Alexander William and Shen, Dazhong and Gao, Peng and Lingelbach, Michael and Sun, Keqiang and Bian, Weikang and Song, Guanglu and Liu, Yu and others},
+  journal={arXiv preprint arXiv:2405.18407},
+  year={2024}
+}
+```
+```bibtex
+@article{wang2024animatelcm,
+  title={AnimateLCM: Accelerating the Animation of Personalized Diffusion Models and Adapters with Decoupled Consistency Learning},
+  author={Wang, Fu-Yun and Huang, Zhaoyang and Shi, Xiaoyu and Bian, Weikang and Song, Guanglu and Liu, Yu and Li, Hongsheng},
+  journal={arXiv preprint arXiv:2402.00769},
+  year={2024}
+}
+```
+```bibtex
+@article{wang2024rectified,
+  title={Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow},
+  author={Wang, Fu-Yun and Yang, Ling and Huang, Zhaoyang and Wang, Mengdi and Li, Hongsheng},
+  journal={arXiv preprint arXiv:2410.07303},
+  year={2024}
+}
+```
+```bibtex
+@article{wang2024stable,
+  title={Stable Consistency Tuning: Understanding and Improving Consistency Models},
+  author={Wang, Fu-Yun and Geng, Zhengyang and Li, Hongsheng},
+  journal={arXiv preprint arXiv:2410.18958},
+  year={2024}
+}
+```
 
