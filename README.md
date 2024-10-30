@@ -1,6 +1,6 @@
 <div align="center">
 
-## ⚡️Phased Consistency Model⚡️
+## ⚡️Phased Consistency Models⚡️
 
 [[Paper]](https://openreview.net/pdf?id=mtBmKqyqGS) [[Project Page ✨]](https://g-u-n.github.io/projects/pcm/) [[Pre-trained Models in 🤗Hugging Face]](https://huggingface.co/wangfuyun/PCM_Weights) [[Demo]](https://huggingface.co/spaces/radames/Phased-Consistency-Model-PCM) [[Civitai]](https://civitai.com/models/487106/pcm-loras-of-stable-diffusion-xl-for-fast-image-generation)  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=G-U-N.Phased-Consistency-Model)
 
