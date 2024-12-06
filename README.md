@@ -158,4 +158,13 @@ Email: fywang@link.cuhk.edu.hk
   year={2024}
 }
 ```
+```bibtex
+@incollection{wang2024animatelcm,
+  title={AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data},
+  author={Wang, Fu-Yun and Huang, Zhaoyang and Bian, Weikang and Shi, Xiaoyu and Sun, Keqiang and Song, Guanglu and Liu, Yu and Li, Hongsheng},
+  booktitle={SIGGRAPH Asia 2024 Technical Communications},
+  pages={1--5},
+  year={2024}
+}
+```
 
